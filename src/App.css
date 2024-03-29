@@ -1,0 +1,168 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  
+}
+
+.code-editor {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.code-editor pre {
+  white-space: pre-wrap;
+  font-family: Consolas, monospace;
+  font-size: 14px;
+  margin: 0;
+}
+
+
+.input-fields{
+  background-color: #f7b0b0;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+from{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input, select {
+  width: 25%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #e9e9e9;
+}
+
+
+button {
+  width: 100px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #4CAF50;
+  cursor: pointer;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* App.css */
+
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+  background-color: #e9e9e9;
+}
+
+.code-editor {
+  overflow: hidden;
+}
+
+.code-editor pre {
+  white-space: pre-wrap;
+  font-family: Consolas, monospace;
+  font-size: 14px;
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: #45a049;
+}
+
+nav h1{
+  background-color: blueviolet;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li{
+  margin-right: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.code-editor {
+  position: relative;
+  width: 100%;
+}
+
+.code-lines {
+  position: absolute;
+  top: 4;
+  left: 0;
+  width: 0.5em; /* Adjust as needed */
+  height: 100%;
+  padding: 10px;
+  background-color: #111; /* Adjust to match your theme */
+  color: #999; /* Adjust to match your theme */
+  font-family: monospace;
+  line-height: 1.5;
+}
+
+.code {
+  width: calc(100% - 0.5em); /* Adjust to account for code lines */
+  height: 70vh;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: violet;
+  background-color: black;
+  caret-color: white; /* Adjust caret color as needed */
+}
